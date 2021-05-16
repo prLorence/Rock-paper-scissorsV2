@@ -1,0 +1,37 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* Container styles */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3em;
+  font-size: 1em;
+}
+
+.imgStyle {
+  width: 20%;
+}
+
+.desc {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+
+
+
