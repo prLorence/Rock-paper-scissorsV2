@@ -18,8 +18,34 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
-  margin-left: 3em;
-  font-size: 1em;
+}
+
+.btn {
+  display: grid;
+  grid-column: 2 / 3;
+  margin-top: 1em;  
+}
+
+span {
+  margin-top: .5em;
+  grid-column: 2 / 3;
+  justify-self: center;
+  font-size: .8em;  
+}
+
+.rock {
+  display: flex;
+  justify-content: center;
+}
+
+.paper {
+  display: flex;
+  justify-content: center;
+}
+
+.scissors {
+  display: flex;
+  justify-content: center;
 }
 
 .imgStyle {
@@ -28,10 +54,24 @@ body {
 
 .desc {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
 }
 
+img:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
 
+
+@media only screen and (min-width: 450px) {
+
+  span {
+    margin-top: .5em;
+    grid-column: 2 / 3;
+    justify-self: center;
+    font-size: 1em;
+  }
+
+}
 
 
