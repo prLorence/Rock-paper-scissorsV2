@@ -24,7 +24,7 @@ function playRound(playerSelection, computerSelection) {
 
   if (
     (computerSelection == "scissors" && playerSelection == "rock") ||
-    (computerSelection == "rock" && playerSelection == "paper") ||for (let i = 0; i <= 5; i++) {
+    (computerSelection == "rock" && playerSelection == "paper") ||
     (computerSelection == "paper" && playerSelection == "scissors")
   ) {
     console.log(`You win!`)
