@@ -11,6 +11,10 @@ body {
   flex-direction: row;
 }
 
+h3 {
+  align-self: flex-end;
+}
+
 /* Container styles */
 
 .container {
@@ -57,11 +61,24 @@ span {
   justify-content: center;
 }
 
-img:hover {
+
+.buttonStyle {
+  background-color: white;
+  border: white;
+}
+
+.buttonStyle:active {
+  background-color: #c0e5fa;
+  border: white;
   scale: 1.2;
   cursor: pointer;
 }
 
+.scoreBrd {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
 
 @media only screen and (min-width: 450px) {
 
